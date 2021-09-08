@@ -1,7 +1,7 @@
 ---
 title: Day 1
 output: html_document
-author: "Elayna Saint Amour"
+author: "Elayna Saint Amour and Courtney Rose"
 ---
 author: "Courtney Rose"
 # Example Text
