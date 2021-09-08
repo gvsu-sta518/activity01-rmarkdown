@@ -1,7 +1,7 @@
 ---
 title: Day 1
 output: html_document
-author: "Kanyanee Manapradit"
+author: Gabriela Smith and Kanyanee Manapradit
 ---
 
 # Example Text
