@@ -1,7 +1,7 @@
 ---
 title: Day 1
 output: html_document
-Aaron Simot
+Jake Garland, Aaron Simot
 ---
 
 # Example Text
