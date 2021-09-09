@@ -1,6 +1,7 @@
 Activity 1.1 - Resolving Merge Conflicts
 ================
 
+k
 We will begin this activity as a whole class, then breakout into Teams.
 It is assumed that you have watched the videos contained within
 Preparation 1.
