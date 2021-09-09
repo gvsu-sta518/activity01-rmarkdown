@@ -1,6 +1,7 @@
 ---
 title: Day 1
 output: html_document
+Aaron Simot
 ---
 
 # Example Text
