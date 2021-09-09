@@ -1,6 +1,7 @@
 ---
 title: Day 1
 output: html_document
+Author: "Goutham Ravichandran"
 ---
 
 # Example Text
