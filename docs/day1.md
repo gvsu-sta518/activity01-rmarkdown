@@ -1,6 +1,7 @@
 ---
 title: Day 1
 output: html_document
+Jae Mwangi
 ---
 
 # Example Text
