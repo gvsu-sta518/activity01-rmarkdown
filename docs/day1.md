@@ -1,6 +1,7 @@
 ---
 title: Day 1
 output: html_document
+authors: "Nate VanDyk & Cleyde Murillo Jr"
 ---
 
 # Example Text
