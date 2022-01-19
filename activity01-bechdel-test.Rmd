@@ -1,6 +1,6 @@
 ---
 title: "Bechdel Test"
-author: "Name"
+author: "Mikaela Berg"
 output: github_document
 ---
 
@@ -25,7 +25,8 @@ For example, in the code chunk below we are loading two packages: `{fivethirtyei
 There are a number of ways to run this code, but for the time being **knit** your document (in the tool bar of this Rmd file, click on ![knit icon](README-img/knit-icon.png) **Knit**).
 
 ```{r load-packages, message=FALSE}
-library(fivethirtyeight)
+library(fivethirtyeight) ##This was not initially installed in my lib so I manually did it in my lib
+# This line of code was recommended: install.packages('fivethirtyeightdata', repos = 'https://fivethirtyeightdata.github.io/drat/',type = 'source') 
 library(tidyverse)
 ```
 
