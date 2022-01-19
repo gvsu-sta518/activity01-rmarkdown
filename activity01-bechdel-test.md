@@ -31,7 +31,8 @@ bar of this Rmd file, click on ![knit icon](README-img/knit-icon.png)
 **Knit**).
 
 ``` r
-library(fivethirtyeight) ##This was not initially installed in my lib so I manually did it in my lib
+library(fivethirtyeight) 
+# This was not initially installed in my lib so I manually did it in my lib
 # This line of code was recommended: install.packages('fivethirtyeightdata', repos = 'https://fivethirtyeightdata.github.io/drat/',type = 'source') 
 library(tidyverse)
 ```
@@ -78,7 +79,7 @@ bechdel90_13
 
 How many movies are there?
 
-**Response**:
+**Response**: There are 1,615 movies.
 
 The financial variables that we will focus on are:
 
@@ -112,7 +113,8 @@ bechdel90_13 %>%
 
 What patterns do you notice?
 
-**Response**:
+**Response**: The PASSING `med_budget`, `med_domgross`, and
+`med_intgross` were all lower then the fail row.
 
 Next, we will take a look at how median budget and median gross vary by
 a more granular (detailed) indicator of the Bechdel test result (where
@@ -139,7 +141,9 @@ bechdel90_13 %>%
 
 What patterns do you notice?
 
-**Response**:
+**Response**: The indicator with the highest `med_budget`,
+`med_domgross`, and `med_intgross` were the `notalk`, where no women
+talk to each other.
 
 In order to evaluate how return on investment varies among movies that
 pass and fail the Bechdel test, we first create a new variable called
