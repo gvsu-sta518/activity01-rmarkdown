@@ -100,7 +100,8 @@ Update the missing variable (i.e., replace the `___` after the minus sign with t
 
 ```{r}
 bechdel90_13 <- bechdel90_13 %>%
-  mutate(roi = (intgross_2013 + domgross_2013 - ___) / budget_2013)
+  mutate(roi = (intgross_2013 + domgross_2013 - budget_2013) / budget_2013) 
+# Was the insertion of the budget_2013 variabel. Google the ROI formula
 ```
 
 Now we can see which movies have the highest return on investment.
@@ -113,7 +114,7 @@ bechdel90_13 %>%
 
 Below is a visualization of the return on investment by test result, however it's difficult to see the distributions due to a few extreme observations.
 
-```{r}
+```{r, warning=FALSE}
 ggplot(data = bechdel90_13, mapping = aes(x = clean_test, y = roi, color = binary)) +
   geom_boxplot() +
   labs(title = "Return on investment vs. Bechdel test result",
@@ -124,7 +125,7 @@ ggplot(data = bechdel90_13, mapping = aes(x = clean_test, y = roi, color = binar
 
 Zooming in on the movies with `roi < 10` provides a better view of how the medians across the categories compare:
 
-```{r}
+```{r, warning=FALSE}
 ggplot(data = bechdel90_13, mapping = aes(x = clean_test, y = roi, color = binary)) +
   geom_boxplot() +
   ylim(0, 10) +
@@ -137,7 +138,7 @@ ggplot(data = bechdel90_13, mapping = aes(x = clean_test, y = roi, color = binar
 
 What patterns do you notice?
 
-**Response**:
+**Response**: I would say there is not statistical significance in the different pas fail and Bechdel variables. But it is interesting that all the medians are about the same. 
 
 
 Go back to the `README` document
