@@ -360,8 +360,8 @@ copy the repo to our RStudio session)!
 8.  In the “Create project as subdirectory of” field, click on
     **Browse…**. Create a **New Folder** called “STA 418” of “STA 518”
     (depending on your course), then within this folder, create a **New
-    Folder** called “Preparations”, think click **Choose**. Note that I
-    am forcing you to use my file system management style.
+    Folder** called “Activities”, think click **Choose**. Note that I am
+    forcing you to use my file system management style.
 9.  Click on **Create Project**.
 
 Your screen should refresh and the **Files** pane should say that you
